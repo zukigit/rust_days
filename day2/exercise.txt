@@ -1,0 +1,5 @@
+Day 2 Exercises
+Try these in your main.rs:
+1. Create a variable for your age, then shadow it to add 10 years. Print both.
+2. Make a tuple with your name, age, and whether you like Rust. Print each field.
+3. Create an array of 5 favorite numbers. Print the first and last.
