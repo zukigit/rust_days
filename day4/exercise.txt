@@ -1,0 +1,4 @@
+Day 4 Exercises
+1. Write a function first_word(s: &String) -> usize that returns the index of the first space (hint: use .chars() and .enumerate()).
+2. Try creating two mutable references to the same string — read the compiler error carefully.
+3. Write a function that takes two &String references and returns the longer length without moving either string.
