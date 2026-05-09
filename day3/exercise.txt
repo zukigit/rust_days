@@ -1,0 +1,11 @@
+Day 3 Exercises
+1. Write a function multiply(a: i32, b: i32) -> i32 and call it from main.
+2. Write a function fizzbuzz(n: u32) that prints:
+
+"Fizz" if divisible by 3
+"Buzz" if divisible by 5
+"FizzBuzz" if both
+the number otherwise
+
+Call it for 1 through 20.
+3. Use a for loop to sum all numbers from 1 to 100 and print the result.

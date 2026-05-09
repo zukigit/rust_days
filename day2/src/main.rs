@@ -1,9 +1,4 @@
 fn main() {
-    let my_age = 25;
-    let my_age = 25;
-
-    println!("My age is: {}", my_age);
-
     let my_tuple = ("zuki", 25, true);
     println!("my_name: {}", my_tuple.0);
     println!("my_age: {}", my_tuple.1);
