@@ -1,0 +1,4 @@
+Day 5 Exercises
+1. Write a function last_word(s: &str) -> &str that returns the last word in a sentence (split on spaces).
+2. Take the string "rust:is:awesome" and split on :, collect the words, and print each one.
+3. Write a function that takes a &[i32] and returns the largest number in the slice.
