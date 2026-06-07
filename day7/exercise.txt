@@ -1,0 +1,4 @@
+Day 7 Exercises
+1. Create a Coin enum with variants Penny, Nickel, Dime, Quarter. Write a function value_in_cents that returns the value of each coin using match.
+2. Write a function divide(a: f64, b: f64) -> Option<f64> that returns None if b is zero, otherwise Some(a / b). Handle both cases in main.
+3. Create a Season enum and write a method is_warm(&self) -> bool that returns true for Summer and Spring.
