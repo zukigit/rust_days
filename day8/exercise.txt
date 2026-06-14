@@ -1,0 +1,4 @@
+Day 8 Exercises
+1. Write a function safe_divide(a: f64, b: f64) -> Option<f64> — return None if b is zero. Call it and handle both cases.
+2. Write a function parse_and_double(s: &str) -> Result<i32, String> that parses a string to i32 and doubles it. Return a descriptive Err string if parsing fails.
+3. Chain two Result-returning functions using ? — write parse_age(s: &str) -> Result<&str, String> that parses a number, checks it's between 0–120, and returns "valid" or an error message.
