@@ -1,3 +1,5 @@
+use std::fmt::Display;
+
 trait Animal {
     fn name(&self) -> String;
 
@@ -47,6 +49,10 @@ impl Animal for Cat {
     }
 }
 
+fn print_info<T: Display>(item: T) {
+    println!("{}", item);
+}
+
 fn main() {
     // Day 10: Traits 🦀
 
@@ -55,4 +61,8 @@ fn main() {
     let cat = Cat::new("Whiskers");
     println!("{}", dog.speak()); // Buddy says Woof!
     println!("{}", cat.speak()); // Whiskers says Meow!
+
+    // 2
+    print_info(dog.name()); // Buddy
+    print_info(cat.name()); // Whiskers
 }
