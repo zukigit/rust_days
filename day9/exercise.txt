@@ -1,0 +1,4 @@
+Day 10 Exercises
+1. Create a trait Animal with methods name(&self) -> String and a default method speak(&self) -> String that returns "... makes a sound". Implement it for Dog and Cat, overriding speak() for at least one.
+2. Write a function print_info<T: Display>(item: T) that prints any value implementing Display.
+3. Create a Vector2D struct and implement Add and Display for it, so you can do let v3 = v1 + v2; and println!("{}", v3).
