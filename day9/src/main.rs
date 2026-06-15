@@ -65,4 +65,6 @@ fn main() {
     // 2
     print_info(dog.name()); // Buddy
     print_info(cat.name()); // Whiskers
+
+    // 3
 }
